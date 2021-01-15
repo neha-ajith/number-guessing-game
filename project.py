@@ -1,7 +1,7 @@
 import random
 message = {1 : "Keep going. You've got this!!", 2 : 'Keep up the spirit!', 3 : 'GG!!', 4 : "Don't you give up soon!!", 5 : "You're almost there!!"}
 print('Whomst has summoned the almighty one...')
-print("Smudge Lord here, the coolest meme cat in business. Your name please! ^_^",end=' ')
+print("Smudge Lord here, the coolest meme cat in business. Your name please! ^_^ : ",end=' ')
 name = input()
 print('Hi '+name+'! Glad meeting you.')
 print('Lemme make it clear for you.')
@@ -18,7 +18,8 @@ while(1):
     for i in range(1,10):
         guess = int(input('Enter your guess: '))
         if x == guess:
-            print('Purrfect! You guessed it right in ' +str(i) + ' tries. Your point: '+str(point))
+            print('Purrfect! You guessed it right in ' +str(i) + ' tries.')
+            print('--------- '+name+"'s score: "+str(point)+' ---------')
             print('Now bring me some taters ;)')
             break
         elif x < guess:
