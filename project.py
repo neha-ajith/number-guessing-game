@@ -1,7 +1,7 @@
 import random
 message = {1 : "Keep going. You've got this!!", 2 : 'Keep up the spirit!', 3 : 'GG!!', 4 : "Don't you give up soon!!", 5 : "You're almost there!!"}
-print('Meow there!!')
-print("I'm Smudge Lord, the coolest meme cat in business. Your name please! ^_^",end=' ')
+print('Whomst has summoned the almighty one...')
+print("Smudge Lord here, the coolest meme cat in business. Your name please! ^_^",end=' ')
 name = input()
 print('Hi '+name+'! Glad meeting you.')
 print('Lemme tell you the rules of this game.')
